@@ -44,6 +44,10 @@ let package = Package(
                 "Vexil.docc",
             ]
         ),
+        .testTarget(
+            name: "VexillographerTests",
+            dependencies: [ "Vexil", "Vexillographer" ]
+        ),
     ],
 
     swiftLanguageVersions: [
